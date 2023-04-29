@@ -2,7 +2,7 @@ import { DateTime } from './Luxon.js';
 
 const timenow = () => {
   const today = DateTime.now();
-  const nows = {
+  const currentTime = {
     day: today.day,
     month: today.month,
     year: today.year,
@@ -11,11 +11,12 @@ const timenow = () => {
     mid: 'AM',
   };
 
-  if (nows.hour > 12) {
-    nows.hour %= 12;
-    nows.mid = 'PM';
+  if (currentTime.hour > 12) {
+    currentTime.hour %= 12;
+    currentTime.mid = 'PM';
   }
-  return nows;
+
+  return currentTime;
 };
 
 export default timenow();
