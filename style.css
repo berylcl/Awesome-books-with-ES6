@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #00072d;
+}
+
+.nav-bar {
+  padding: 20px 0;
+}
+
+.nav-menu {
+  display: flex;
+  height: 50px;
+  width: 97%;
+  border: 5px solid #002855;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.nav {
+  display: flex;
+  list-style: none;
+}
+
+#logo {
+  cursor: pointer;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  float: right;
+  margin: -15px 20px 0 0;
+  color: black;
+}
+
+.nav-menu a:active {
+  color: #023e8a;
+}
+
+.nav-menu a:hover {
+  color: #023e8a;
+}
+
+#date {
+  text-align: end;
+  margin-right: 29px;
+}
+
+#section {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.book-line {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0 8px 8px;
+  align-items: baseline;
+}
+
+.added-books {
+  border: 3px solid #002855;
+}
+
+.remove {
+  width: fit-content;
+  padding: 5px;
+  margin: 0;
+  height: 30px;
+  text-align: center;
+  box-shadow: 3px 5px black;
+}
+
+.blue {
+  background-color: #ccc;
+}
+
+.list {
+  width: 1px;
+  background-color: black;
+  height: 20px;
+  display: inline;
+  margin: 0 0 0 14px;
+}
+
+#form {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+#author,
+#title {
+  padding: 15px 0;
+}
+
+#btn {
+  align-self: flex-end;
+  width: fit-content;
+  padding: 5px 20px;
+  box-shadow: 3px 5px black;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+footer {
+  border: 4px solid #002855;
+  width: 95%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  margin: 0 auto;
+}
+
+.add {
+  display: none;
+}
+
+.contact {
+  display: none;
+}
+
+.book {
+  display: none;
+}
+
+#con.active {
+  color: #023e8a;
+}
+
+#new.active {
+  color: #023e8a;
+}
+
+#lis.active {
+  color: #023e8a;
+}
+
+span {
+  border-bottom: 2px solid #ff0a54;
+  color: #ff0a54;
+}

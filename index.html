@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap" rel="stylesheet">
+    <title>Awesome Books</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav-bar">
+    <div class="nav-menu">
+        <h1 id="logo">Awesome Books</h1>
+        <ul class="nav">
+            <li class="nav-list"><a id="lis" href="#">List <hr class="list"></a></li>
+            <li class="nav-list"><a id="new" href="#">Add new<hr class="list"></a></li>
+            <li class="nav-list"><a id="con" href="#">Contact</a></li>
+        </ul>
+    </div>
+    <p id="date"></p>
+</header>
+<section id="section">
+    <div class="book">
+        <h1 class="heading">
+            All awesome books
+        </h1>
+        <div class="added-books">
+            <!--This section loads dynamically-->
+        </div>
+    </div>
+    <main class="add">
+        <h1 class="heading">
+            Add a new book
+        </h1>
+        <form id="form" action="submit" autocomplete="off">
+            <label for="title">Title:</label>
+            <input id="title" name="title" type="text" placeholder="Enter title here"><br><br>
+
+            <label for="author">Author:</label>
+            <input id="author" name="author" type="text" placeholder="Enter author here"><br><br>
+
+            <button id="btn" type="button">Add</button>
+        </form>
+
+    </main>
+    <div class="contact">
+        <h1 class="heading">Contact information</h1>
+        <p id="p">Do you have any questions or you just want to say "Hello"? <br> You can reach out to us!</p>
+        <ul id="contact-list" class="contact-list">
+            <li>Our Email: <span>gakiiberyl@gmailcom</span> and <span>unorjikingsley@gmail.com </span></li>
+            <li>Our Phone : +2348139050845 and + 2348180651659</li>
+            <li>Our address:  Ijagbo offa, Nigeria	</li>
+        </ul>
+    </div>
+</section>
+<footer>Copyright@Gakii</footer>
+<script type="module" src="index.js"></script>
+</body>
+</html>
