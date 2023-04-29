@@ -1,5 +1,3 @@
-// eslint-disable-next-line max-classes-per-file
-
 import Books from './modules/book-list.js';
 import timenow from './modules/date.js';
 
