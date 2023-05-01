@@ -25,7 +25,7 @@
 
 # 📖 [Awesome-books-with-ES6] <a name="about-project"></a>
 
-> **[Awesome Books]** is a...This is a simple html page which is contains a dynamic form about Awesome books, books title, and the author. I have used HTML and Javascript for this project and you can use it in your local machine just by cloning this repo.
+ **[Awesome Books]** is a...This is a simple html page which is contains a dynamic form about Awesome books, books title, and the author. I have used HTML and Javascript for this project and you can use it in your local machine just by cloning this repo.
 
 ## 🛠 Built With <a name="built-with"></a>
 - HTML
