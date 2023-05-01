@@ -1,7 +1,7 @@
 export default class Bookdata {
   constructor(id, title, author) {
-    this.Id = id;
-    this.Title = title;
-    this.Author = author;
+    this.id = id;
+    this.title = title;
+    this.author = author;
   }
 }
